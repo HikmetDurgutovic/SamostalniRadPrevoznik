@@ -1,0 +1,55 @@
+INSERT INTO Vehicles VALUES("Autobus", ?);
+INSERT INTO Vehicles VALUES("Autobus", ?);
+INSERT INTO Vehicles VALUES("Autobus", ?);
+INSERT INTO Vehicles VALUES("Autobus", ?);
+INSERT INTO Vehicles VALUES("Trolejbus", ?);
+INSERT INTO Vehicles VALUES("Trolejbus", ?);
+INSERT INTO Vehicles VALUES("Trolejbus", ?);
+INSERT INTO Vehicles VALUES("Tramvaj", ?);
+INSERT INTO Vehicles VALUES("Tramvaj", ?);
+INSERT INTO Vehicles VALUES("Tramvaj", ?);
+
+INSERT INTO Drivers VALUES("Edib", "Imamovic", 30, 2012, ?);
+INSERT INTO Drivers VALUES("Jesenko", "Gavric", 26, 2013, ?);
+INSERT INTO Drivers VALUES("Nedzad", "Hamzic", 26, 2014, ?);
+INSERT INTO Drivers VALUES("Davor", "Stankovic", 29, 2011, ?);
+INSERT INTO Drivers VALUES("Nermin", "Graca", 30, ?, ?);
+INSERT INTO Drivers VALUES("Neldin", "Dzekovic", 23, 2014, ?);
+INSERT INTO Drivers VALUES("Mustafa", "Ademovic", 22, 2014, ?);
+INSERT INTO Drivers VALUES("Haris", "Krkalic", 22, 2012, ?);
+INSERT INTO Drivers VALUES("Vedad", "Zornic", 23, 2013, ?);
+INSERT INTO Drivers VALUES("Hikmet", "Durgutovic", 32, 2010, ?);
+
+INSERT INTO Lines VALUES("Stup", "Vogosca", "07.45", 40, ?);
+INSERT INTO Lines VALUES("Bascarsija", "Zeljeznicka stanica", "07.30", 20, ?);
+INSERT INTO Lines VALUES("Vijecnica", "Hrasnica", "07.00", 60, ?);
+INSERT INTO Lines VALUES("Bascarsija", "Cengic Vila", "08.10", 25, ?);
+INSERT INTO Lines VALUES("Ilidza", "Hadzici", "07.30", 30, ?);
+INSERT INTO Lines VALUES("Trg Austrije", "Otoka", "09.00", 25, ?);
+INSERT INTO Lines VALUES("Otoka", "Dobrinja", "08.45", 20, ?);
+INSERT INTO Lines VALUES("Nedzarici", "Dobrinja", "08.15", 10, ?);
+INSERT INTO Lines VALUES("Dobrinja", "Jezero", "08.30", 35, ?);
+INSERT INTO Lines VALUES("Skenderija", "Ilidza", "07.05", 50, ?);
+
+
+INSERT INTO Shifts VALUES(7, 4, 1, 1, ?);
+INSERT INTO Shifts VALUES(7, 2, 1, 1, ?);
+INSERT INTO Shifts VALUES(1, 8, 2, 1, ?);
+INSERT INTO Shifts VALUES(1, 10, 2, 1, ?);
+INSERT INTO Shifts VALUES(3, 10, 4, 1, ?);
+INSERT INTO Shifts VALUES(3, 9, 4, 1, ?);
+INSERT INTO Shifts VALUES(2, 2, 3, 1, ?);
+INSERT INTO Shifts VALUES(2, 3, 3, 1, ?);
+INSERT INTO Shifts VALUES(5, 7, 6, 2, ?);
+INSERT INTO Shifts VALUES(5, 5, 6, 2, ?);
+INSERT INTO Shifts VALUES(4, 1, 8, 2, ?);
+INSERT INTO Shifts VALUES(4, 3, 8, 2, ?);
+INSERT INTO Shifts VALUES(10, 3, 5, 2, ?);
+INSERT INTO Shifts VALUES(10, 2, 5, 2, ?);
+INSERT INTO Shifts VALUES(6, 9, 10, 3, ?);
+INSERT INTO Shifts VALUES(6, 10, 10, 3, ?);
+INSERT INTO Shifts VALUES(8, 5, 9, 3, ?);
+INSERT INTO Shifts VALUES(8, 6, 9, 3, ?);
+INSERT INTO Shifts VALUES(9, 6, 7, 3, ?);
+INSERT INTO Shifts VALUES(9, 7, 7, 3, ?);
+INSERT INTO Shifts VALUES(7, 2, 10, 3, ?);

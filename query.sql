@@ -1,0 +1,16 @@
+select * from VozaciVozila;
+select * from TramvajskeLinije;
+select * from AutobuskeLinije;
+select * from TrolejbuskeLinije;
+select * from AutobuskeTramvajskeStanice;
+select * from AutobuskeTrolejbuskeStanice;
+select avg(year) as AverageYears from Drivers;
+select avg(2015 - year_of_employment) as ProsjekGodinaRada from Drivers;
+select name, surname, max(Drivers.year) from Drivers;
+select * from StanicaIlidza;
+select * from LinijaOtokaDobrinja;
+select * from Tramvaj2;
+select * from VozacLinije1I11;
+select * from  PrvaSmjena;
+select * from  PrvaSmjenaAutobusi;
+select * from  Vozac5PolazneStanice;
